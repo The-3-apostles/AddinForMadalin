@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroCs", "MacroCs.csproj", "{ECCCBB58-C153-4E9C-8CEF-9E217EB7A865}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECCCBB58-C153-4E9C-8CEF-9E217EB7A865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCCBB58-C153-4E9C-8CEF-9E217EB7A865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCCBB58-C153-4E9C-8CEF-9E217EB7A865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCCBB58-C153-4E9C-8CEF-9E217EB7A865}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBF49404-50D3-4619-875E-1258B4EDDFC2}
+	EndGlobalSection
+EndGlobal
