@@ -1,4 +1,3 @@
-C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.csprojAssemblyReference.cache
 C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.Form1.resources
 C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.Properties.Resources.resources
 C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.csproj.GenerateResource.cache
@@ -11,3 +10,5 @@ C:\Documents\Projects\AddinForMadalin\Code\MacroCs\bin\Debug\Interop.SolidEdge.x
 C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.csproj.CopyComplete
 C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.exe
 C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.pdb
+C:\Documents\Projects\AddinForMadalin\Code\MacroCs\bin\Debug\SolidEdge.Community.dll
+C:\Documents\Projects\AddinForMadalin\Code\MacroCs\bin\Debug\SolidEdge.Community.xml

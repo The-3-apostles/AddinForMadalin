@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using SolidEdgeFramework;
+using SolidEdgePart;
+using SolidEdgeCommunity;
 
 namespace MacroCs
 {
@@ -20,17 +23,17 @@ namespace MacroCs
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SolidEdgeFramework.Application application = null;
+            SolidEdgeFramework.Application seApplication = null;
+            SolidEdgeFramework.Documents seDocuments = null;
+            SolidEdgePart.PartDocument sePartDocument = null;
+
             Type type = null;
             try
             {
-                // Get the type from the Solid Edge ProgID
-                type = Type.GetTypeFromProgID("SolidEdge.Application");
-                // Start Solid Edge
-                application = (SolidEdgeFramework.Application)
-                Activator.CreateInstance(type);
-                // Make Solid Edge visible
-                application.Visible = true;
+                seApplication = SolidEdgeCommunity.SolidEdgeUtils.Connect(true);
+                seDocuments = seApplication.Documents;
+                sePartDocument = (PartDocument)seDocuments.Add("SolidEdge.PartDocument");
+
             }
             catch (System.Exception ex)
             {
@@ -38,12 +41,15 @@ namespace MacroCs
             }
             finally
             {
-                if (application != null)
-                {
-                    Marshal.ReleaseComObject(application);
-                    application = null;
-                }
+                sePartDocument = null;
+                seDocuments = null;
+                seApplication = null;
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
