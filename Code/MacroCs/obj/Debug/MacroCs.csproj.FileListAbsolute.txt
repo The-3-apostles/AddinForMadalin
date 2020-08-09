@@ -1,9 +1,13 @@
+C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.csprojAssemblyReference.cache
+C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.Form1.resources
+C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.Properties.Resources.resources
+C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.csproj.GenerateResource.cache
+C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.csproj.CoreCompileInputs.cache
 C:\Documents\Projects\AddinForMadalin\Code\MacroCs\bin\Debug\MacroCs.exe.config
 C:\Documents\Projects\AddinForMadalin\Code\MacroCs\bin\Debug\MacroCs.exe
 C:\Documents\Projects\AddinForMadalin\Code\MacroCs\bin\Debug\MacroCs.pdb
-C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.csprojAssemblyReference.cache
-C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\Interop.SolidEdgeFramework.dll
-C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.csproj.ResolveComReference.cache
-C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.csproj.CoreCompileInputs.cache
+C:\Documents\Projects\AddinForMadalin\Code\MacroCs\bin\Debug\Interop.SolidEdge.dll
+C:\Documents\Projects\AddinForMadalin\Code\MacroCs\bin\Debug\Interop.SolidEdge.xml
+C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.csproj.CopyComplete
 C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.exe
 C:\Documents\Projects\AddinForMadalin\Code\MacroCs\obj\Debug\MacroCs.pdb
