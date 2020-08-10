@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using SolidEdgeFramework;
+using SolidEdgeGeometry;
 using SolidEdgePart;
 using System.Runtime.InteropServices;
 
@@ -23,43 +24,58 @@ namespace MacroIpad
         private void button1_Click(object sender, EventArgs e)
         {
             SolidEdgeFramework.Application application = null;
+            SolidEdgeFramework.SolidEdgeDocument document = null;
+            SolidEdgePart.PartDocument partDocument = null;
+            SolidEdgePart.Models models = null;
+            SolidEdgePart.Model model = null;
+            SolidEdgeGeometry.Body body = null;
+
+            SolidEdgeFramework.PropertySets propertySets = null;
+            SolidEdgeFramework.Properties propertiesSummary = null;
+            SolidEdgeFramework.Property title = null;
+
+            SolidEdgeFramework.Properties propertiesProject = null;
+            SolidEdgeFramework.Properties documentNumber = null;
+
             try
             {
-                // Connect to a running instance of Solid Edge
-                application = (SolidEdgeFramework.Application)
-                    Marshal.GetActiveObject("SolidEdge.Application");
+                // Attempt to connect to a running instance of Solid Edge.
+                application = (SolidEdgeFramework.Application)Marshal.GetActiveObject("SolidEdge.Application");
+                document = application.ActiveDocument as SolidEdgeFramework.SolidEdgeDocument;
+                // partDocument = application.ActiveDocument as SolidEdgePart.PartDocument;
 
-                SolidEdgeFramework.SolidEdgeDocument document = null;
-                document = (SolidEdgeFramework.SolidEdgeDocument)
-                   application.ActiveDocument;
+                if (document != null)
+                {
+                    //models = partDocument.Models;
+                    //model = models.Item(1);
+                    //body = (SolidEdgeGeometry.Body)model.Body;
 
-                SolidEdgeFramework.Window window = null;
-                window = (SolidEdgeFramework.Window)
-                    application.ActiveWindow;
+                    //var MinRangePoint = Array.CreateInstance(typeof(double), 0);
+                    //var MaxRangePoint = Array.CreateInstance(typeof(double), 0);
 
-                SolidEdgeFramework.View p = null;
-                p = window.View;
+                    //body.GetRange(ref MinRangePoint, ref MaxRangePoint);
 
-                double a, b, c, h, f, g;
-                p.GetModelRange(out a, out b, out c, out h, out f, out g);
-                Console.WriteLine(a);
-                Console.WriteLine(b);
-                Console.WriteLine(c);
-                Console.WriteLine(h);
-                Console.WriteLine(f);
-                Console.WriteLine(g);
+                    //foreach (var item in MinRangePoint)
+                    //    Console.WriteLine((Double)item * 1000.0);
+                    //Console.WriteLine();
+                    //foreach (var item in MaxRangePoint)
+                    //    Console.WriteLine((Double)item * 1000.0);
+
+                    propertySets = (PropertySets)document.Properties;
+                    propertiesSummary = propertySets.Item("SummaryInformation");
+                    title = propertiesSummary.Item("Title");
+                    title.set_Value("TEST");
+
+                }
             }
             catch (System.Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex);
             }
             finally
             {
-                if (application != null)
-                {
-                    Marshal.ReleaseComObject(application);
-                    application = null;
-                }
+                Marshal.ReleaseComObject(propertySets);
+                Marshal.ReleaseComObject(propertiesSummary);
             }
         }
 
