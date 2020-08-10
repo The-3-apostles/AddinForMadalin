@@ -1,7 +1,6 @@
 C:\Documents\Projects\AddinForMadalin\Code\MacroIpad\bin\Debug\MacroIpad.exe.config
 C:\Documents\Projects\AddinForMadalin\Code\MacroIpad\bin\Debug\MacroIpad.exe
 C:\Documents\Projects\AddinForMadalin\Code\MacroIpad\bin\Debug\MacroIpad.pdb
-C:\Documents\Projects\AddinForMadalin\Code\MacroIpad\obj\Debug\MacroIpad.csprojAssemblyReference.cache
 C:\Documents\Projects\AddinForMadalin\Code\MacroIpad\obj\Debug\MacroIpad.Form1.resources
 C:\Documents\Projects\AddinForMadalin\Code\MacroIpad\obj\Debug\MacroIpad.Properties.Resources.resources
 C:\Documents\Projects\AddinForMadalin\Code\MacroIpad\obj\Debug\MacroIpad.csproj.GenerateResource.cache

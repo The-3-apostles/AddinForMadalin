@@ -1,0 +1,76 @@
+SummaryInformation
+Title
+Subject
+Author
+Keywords
+Comments
+Template
+Last Author
+Revision Number
+Total Editing Time
+Last Print Date
+Origination Date
+Last Save Date
+Number of pages
+Number of words
+Number of characters
+Application Name
+Security
+
+ExtendedSummaryInformation
+Name of Saving Application
+DocumentID
+Status
+Username
+CreationLocale
+Hardware
+StatusChangeDate
+FriendlyUserName
+
+DocumentSummaryInformation
+Category
+Presentation Format
+Byte Count
+Lines
+Paragraphs
+Slides
+Notes
+Hidden Objects
+Multimedia Clips
+Manager
+Company
+
+Custom
+Density
+Accuracy
+Dataset Name
+Teamcenter Item Type
+Tratament suprafata
+Consum
+Furnizor
+Semifabricat
+Unitate de masura
+
+ProjectInformation
+Document Number
+Revision
+Project Name
+
+VersionHistory
+
+MechanicalModeling
+Material
+Face Style
+Fill Style
+Virtual Style
+Coef. of Thermal Exp
+Thermal Conductivity
+Specific Heat
+Modulus of Elasticity
+Poisson's Ratio
+Yield Stress
+Ultimate Stress
+Elongation
+Grouping
+LibraryName
+

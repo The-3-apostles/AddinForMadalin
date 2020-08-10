@@ -33,6 +33,7 @@ namespace MacroIpad
             SolidEdgeFramework.PropertySets propertySets = null;
             SolidEdgeFramework.Properties propertiesSummary = null;
             SolidEdgeFramework.Property title = null;
+            SolidEdgeFramework.Property itemInfo = null;
 
             SolidEdgeFramework.Properties propertiesProject = null;
             SolidEdgeFramework.Properties documentNumber = null;
@@ -61,11 +62,31 @@ namespace MacroIpad
                     //foreach (var item in MaxRangePoint)
                     //    Console.WriteLine((Double)item * 1000.0);
 
+                    SolidEdgeFramework.Properties group = null;
+                    SolidEdgeFramework.Property field = null;
+
                     propertySets = (PropertySets)document.Properties;
+                    using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\Documents\fisier.txt"))
+                    {
+                        for (int i = 1; i <= propertySets.Count; ++ i)
+                        {
+                            group = propertySets.Item(i);
+                            file.WriteLine(group.Name);
+                            for (int j = 1; j <= group.Count; ++ j)
+                            {
+                                field = group.Item(j);
+                                file.WriteLine(field.Name);
+                                Marshal.ReleaseComObject(field);
+                            }
+                            file.WriteLine();
+                            Marshal.ReleaseComObject(group);
+                        }
+                    }
                     propertiesSummary = propertySets.Item("SummaryInformation");
                     title = propertiesSummary.Item("Title");
-                    title.set_Value("TEST");
 
+                    title.set_Value("TEST");
+                    
                 }
             }
             catch (System.Exception ex)
@@ -75,7 +96,6 @@ namespace MacroIpad
             finally
             {
                 Marshal.ReleaseComObject(propertySets);
-                Marshal.ReleaseComObject(propertiesSummary);
             }
         }
 
