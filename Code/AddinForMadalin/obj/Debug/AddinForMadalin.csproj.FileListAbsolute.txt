@@ -1,0 +1,17 @@
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\bin\Debug\AddinForMadalin.exe.config
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\bin\Debug\AddinForMadalin.exe
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\bin\Debug\AddinForMadalin.pdb
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\obj\Debug\AddinForMadalin.csprojAssemblyReference.cache
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\obj\Debug\AddinForMadalin.Index.resources
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\obj\Debug\AddinForMadalin.Properties.Resources.resources
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\obj\Debug\AddinForMadalin.csproj.GenerateResource.cache
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\obj\Debug\AddinForMadalin.csproj.CoreCompileInputs.cache
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\obj\Debug\AddinForMadalin.exe
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\obj\Debug\AddinForMadalin.pdb
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\bin\Debug\Interop.SolidEdge.dll
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\bin\Debug\SolidEdge.Community.dll
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\bin\Debug\SolidEdge.Community.Reader.dll
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\bin\Debug\Interop.SolidEdge.xml
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\bin\Debug\SolidEdge.Community.xml
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\bin\Debug\SolidEdge.Community.Reader.xml
+C:\Documents\Projects\AddinForMadalin\Code\AddinForMadalin\obj\Debug\AddinForMadalin.csproj.CopyComplete
