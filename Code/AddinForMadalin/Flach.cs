@@ -31,6 +31,8 @@ namespace AddinForMadalin
                     dim[i] = tolerance * (int)(((double)maxCoord.GetValue(i) - (double)minCoord.GetValue(i)) * 1000 / tolerance + 1);
                 }
 
+                Array.Sort(dim);
+
                 SolidEdgeDocument document = document = (SolidEdgeDocument)application.ActiveDocument;
                 PropertySets propertySets = (PropertySets)document.Properties;
                 SolidEdgeFramework.Properties customProperties = propertySets.Item("Custom");
